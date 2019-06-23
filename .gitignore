@@ -1,0 +1,16 @@
+# misc
+
+# pkgs
+node_modules
+
+
+# dotfiles
+.env
+.env.production
+.env.test
+
+# osx
+.DS_Store
+
+# personal
+NOTES.md

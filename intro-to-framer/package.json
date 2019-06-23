@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "DS",
+  "keywords": [
+    "mdx-deck",
+    "deck",
+    "framer presentation",
+    "presentation",
+    "react",
+    "framer x"
+  ],
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "presenter": "mdx-deck presenter deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck-export pdf deck.mdx",
+    "png": "mdx-deck-export png deck.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^2.0.5"
+  },
+  "dependencies": {
+    "@mdx-deck/export": "^2.0.5"
+  }
+}
