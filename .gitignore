@@ -1,5 +1,3 @@
-# misc
-
 # pkgs
 node_modules
 
@@ -14,3 +12,8 @@ node_modules
 
 # personal
 NOTES.md
+
+
+# logs
+*.logs
+yarn-error.log

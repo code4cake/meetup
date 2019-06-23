@@ -1,7 +1,8 @@
 {
   "private": true,
-  "name": "intro-to-framer",
-  "'version'": "1.0.0",
+  "name": "animating-prototypes",
+  "version": "1.0.0",
+  "description": "Slides for the event",
   "author": "DS",
   "keywords": [
     "mdx-deck",
@@ -11,6 +12,7 @@
     "react",
     "framer x"
   ],
+  "license": "MIT",
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "presenter": "mdx-deck presenter deck.mdx",
@@ -19,9 +21,6 @@
     "png": "mdx-deck-export png deck.mdx"
   },
   "devDependencies": {
-    "mdx-deck": "^2.0.5"
-  },
-  "dependencies": {
-    "@mdx-deck/export": "^2.0.5"
+    "mdx-deck": "^2.4.0"
   }
 }

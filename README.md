@@ -2,15 +2,15 @@
 
 Repo containing slides and framer prototypes given at each event.
 
----
-
 ## What's Inside
 
 - [x] [Meetup Wallpaper](./meetup-wallpaper) **26 March 2019**
 - [x] [Intro To Framer](./intro-to-framer) **26 March 2019** (in maintenance)
 - [x] [Animating Prototypes](./animating-prototypes) **25 June 2019**
 
----
+## License
+
+[License](./LICENSE)
 
 ## Note
 

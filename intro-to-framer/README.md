@@ -1,7 +1,9 @@
-# Intro to Framer X deck 📚
+# Intro to Framer X 📚
 
-Presentation using the fantastic [mdx-deck](https://github.com/jxnblk/mdx-deck)
+## 🚧 THE SLIDES ON THIS REPO ARE UNDER MAINTENANCE 🤕 🚧 
 
-Building presentations with `React` & `markdown`
+Please come back later
+
+Presentation and prototypes for the [intro to framer x](https://www.meetup.com/Brussels-FramerX/events/259701919/) meetup event
 
 Made with ❤️ by D/S &copy; 2019
