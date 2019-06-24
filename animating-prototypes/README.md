@@ -1,6 +1,6 @@
 # Animating Prototypes
 
-Presentation and prototypes for the [creating animating prototypes](https://www.meetup.com/Brussels-FramerX/events/261012966/) meetup event. 
+Presentation and prototypes for the [creating animating prototypes](https://www.meetup.com/Brussels-FramerX/events/261012966/) meetup event.
 
 ## What's Inside
 
@@ -12,9 +12,23 @@ Presentation and prototypes for the [creating animating prototypes](https://www.
   - [x] Stories v1 - Paging Example
 - [x] Exercise
 
-## To run the slides
+## Slides
 
 To see the slides just clone the repo. And run `yarn install`.
 
-Made with ❤️ &copy; 2019 by DS 🇧🇪
+- `yarn start` to run the slides on development and hack around
 
+- `yarn build` to build the slides
+
+- `yarn pdf` to export the slides in `pdf` format
+- `yarn png` to export the slides in `png` format
+
+## Prototypes
+
+Clone the repo and open the framer folder on framer.
+
+## License
+
+[License](./LICENSE)
+
+Made with ❤️ &copy; 2019 by DS 🇧🇪
