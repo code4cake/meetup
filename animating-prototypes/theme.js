@@ -8,7 +8,8 @@ const Provider = props => (
     },
     h1: {
       lineSpacing: '0.1rem'
-    }
+    },
+      backgroundColor: 'rgb(0, 85, 255)'
   }}>
     {props.children}
     <div

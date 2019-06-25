@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "mdx-deck": "^2.4.0"
+  },
+  "dependencies": {
+    "@mdx-deck/export": "^2.4.0"
   }
 }
