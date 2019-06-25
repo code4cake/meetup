@@ -1,10 +1,12 @@
 import future from '@mdx-deck/themes/future'
 import aspect from '@mdx-deck/themes/aspect'
+import theme from './theme'
 import { Appear, Reveal, Image, Notes } from 'mdx-deck'
 
 export const themes = [
   future,
-  aspect
+  aspect,
+  theme,
 ]
 
 # Creating Animating Prototypes in Framer X 🚘 🤸‍
@@ -34,9 +36,9 @@ export const themes = [
 
 ---
 
-# On Github you'll find
+# On Github...
 
-<Note>Remember that on on github you'll find</Note>
+<Notes>Remember that on on github you'll find</Notes>
 
 <Appear>
   <li>👉 all slides</li>
@@ -48,23 +50,18 @@ export const themes = [
 
 # But before we begin 
 
-<Appear>
-  <h1>let's give a round of applause at the folks of JobYourself for hosting the event</h1>
-</Appear>
-
----
-
-# 👏👏👏
+<Notes>let's give a round of applause at the folks of JobYourself for hosting the event</Notes>
 
 ---
 
 # And...
 
 <Appear>
-  <h1>also another round of applause 👏👏👏 for you folks...</>
+  <h1>also another round of applause 👏👏👏 for you folks...</h1>
 </Appear>
 
-<Note>It is not always easy to make it to one of this events after spending all day at work</Note>
+<Notes>It is not always easy to make it to one of this events after spending all day at work</Notes>
+
 ---
 
 # So what's Framer ?
@@ -91,23 +88,24 @@ export const themes = [
 
 ---
 
-# Framer is divided into a...
+# Framer is divided into various panels...
 
 <Appear>
   <li>Tools Panel</li>
-  <Notes>Where you create your prototypes</Notes>
   <li>Layers Panel</li>
-  <Notes>Where you see all your layers or frames</Notes>
   <li>Components Panel</li>
-  <Notes>Where you see all created components and where you can create new components</Notes>
   <li>Code Panel or Playground</li>
-  <Notes>Where you code your Overrides, extend components, etc</Notes>
   <li>Store</li>
-  <Notes>Where you can search and install public available components made by other people or the components you have published</Notes>
   <li>the Team Store</li>
-  <Notes>A Private Store for your Team</Notes>
-  <li>and the Preview Panel where preview your prototypes</li>
+  <li>and the Preview Panel where you can preview your prototypes</li>
 </Appear>
+
+<Notes>Where you create your prototypes</Notes>
+<Notes>Where you see all your layers or frames</Notes>
+<Notes>Where you see all created components and where you can create new components</Notes>
+<Notes>Where you code your Overrides, extend co mponents, etc</Notes>
+<Notes>Where you can search and install public available components made by other people or the components you have published</Notes>
+<Notes>A Private Store for your Team</Notes>
 
 ---
 
@@ -127,10 +125,10 @@ export const themes = [
 
 <Appear>
   <li>A wonderful API giving us a better way to customize and control animations and events</li>
-  <li>A massive update on their docs, which you can find here</li>
+  <li>A massive update on their docs, which you can find...</li>
   <li>https://www.framer.com/api</li>
   <li>As well as various resources both paying an free</li>
-  <li>Which you can find here...</li>
+  <li>Which you can find...</li>
   <li>https://www.framer.com/tutorials/</li>
 </Appear>
 
@@ -157,7 +155,7 @@ export const themes = [
   <li>👉 Scroll Frames</li>
 </Appear>
 
-<Note>I will briefly go into what each one of them is and then we will see them in action</Note>
+<Notes>I will briefly go into what each one of them is and then we will see them in action in an actual prototype</Notes>
 
 --- 
 
@@ -174,7 +172,7 @@ export const themes = [
   <li>👉 Direction</li>
 </Appear>
 
-<Notes>It's simple but it could be quite powerful for just specifying things like modals, overlays, basic swiping</Notes>
+<Notes>It's simple but it could be quite powerful for just specifying things like modals, overlays, basic swiping. I can control transitions, and direction</Notes>
 
 ---
 
@@ -211,16 +209,68 @@ export const themes = [
 
 # More "advanced" Animations
 
-<Notes>I say advance, but they are not advance, what they do require though is some basic knowledge of JS concepts</Notes>
-<Notes>So let's discuss these</Notes>
+<Notes>I say advance, but they are not advance, what they do require though is some basic knowledge of JS concepts. So let's discuss what these are. Would you guys like to take a break here to eat something or should? </Notes>
 
 ---
 
-# What's a variable ?
+# Some Javascript (Coding) lingo before we begin...
+
+<Notes>I will go through all the slides in this section before jumping into more concrete details..</Notes>
+
+---
+
+# What's a Variable ?
+
+<Notes>A variable is simple a way to store some value</Notes>
+
+---
+
+# <Image src='./images/variable-image.png' size="50%" />
+
+<Notes>If you remember anything from elementary school it looks something like this.</Notes>
+
+---
+
+# What's an Object ?
+
+<Notes>Who's has gone to IKEA? Well this is an Object.</Notes>
+
+---
+
+# <Image src='./images/chair-jokkmokk.jpg' size='50%' />
+
+---
+
+# What's an Array ?
+
+<Notes>An Array is s type of object, it just allows me to properly index some items. Think of it like a bookshelve, where the books are the items on that shelve. Or a box of donuts...</Notes>
+
+---
+
+#  <Image src='./images/donut-array.png' size='50%' />
+
+---
+
+# What's a Function ?
+
+<Notes>They respond to: "Do this" or "I take some input and return something else". Functions are just set of instructions. Framer gives me the Override function, which it does just that. Override.</Notes>
 
 <Appear>
-  <Image>
+   <h1>Do this..</h1>
+   <h1>or take this and output this</h1>
 </Appear>
+
+---
+
+# What's TypeScript ?
+
+<Notes>For all intents and purposes of tonight, we are gonna treat typescript as just documentation for your code. It does much more than that, but in the simplest form it does this very well. It documents the code you write so others can utilise it better.</Notes>
+
+---
+ 
+# Let See Now some Code Explaining those terms
+
+<Notes>And from here we'll transition into the actual prototypes explaining simple overrides, more complex overrides and a live code example.</Notes>
 
 ---
 
@@ -235,7 +285,11 @@ export const themes = [
 # You can find me on Github
 
 <Appear>
-  <li>[dantesolis](https:ithub.com/dantesolis)</li>
+  <li>https:github.com/dantesolis</li>
   <li>or on Twitter @dsbrux</li>
 </Appear>
+
+<Notes>Tonight was the last meetup before the Summer break, but there will be another one last Tuesday of October.</Notes>
+
+---
 

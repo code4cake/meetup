@@ -17,3 +17,6 @@ NOTES.md
 # logs
 *.logs
 yarn-error.log
+
+# build
+dist/

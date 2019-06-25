@@ -2,7 +2,7 @@
   "private": true,
   "name": "animating-prototypes",
   "version": "1.0.0",
-  "description": "Slides for the event",
+  "description": "Slides for the Animating Prototypes event",
   "author": "DS",
   "keywords": [
     "mdx-deck",
@@ -17,6 +17,7 @@
     "start": "mdx-deck deck.mdx",
     "presenter": "mdx-deck presenter deck.mdx",
     "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck",
     "pdf": "mdx-deck-export pdf deck.mdx",
     "png": "mdx-deck-export png deck.mdx"
   },
