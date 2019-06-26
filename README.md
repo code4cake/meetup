@@ -10,6 +10,8 @@ Prototypes and slides of the previous and next events.
 - [x] [Intro To Framer](./intro-to-framer) **🚧 repo in maintenance 🚧**
 - [x] [Animating Prototypes](./animating-prototypes)
 
+**Note:** To run and play with the prototypes you must have a **mac** and have **Framer X** installed. Framer X comes with a 14-Day trial if you want to just try it. Get it [here](https://www.framer.com/download/)
+
 ## Events Dates 🗓
 
 Usually on the last Tuesday of the Month
